@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; 
+    color: #333333; 
+    line-height: 1.6;
+  }
+  
+  /* Estilo para cabeçalho */
+  header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center; 
+  }
+  
+
+/* Estilo para o título 'Jardim das Especiarias' com a fonte Ramadhan Amazing */
+.title-font {
+    font-family: 'Ramadhan Amazing', sans-serif;
+  }
+  
+.imagem {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333333; 
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #44cc44; /* Verde ao passar o mouse */
+  }
+
+  nav ul li a:active {
+    color: #44cc44; /* Verde ao clicar com o mouse */ 
+  }
+  
+  /* Estilo para seções */
+  section {
+    padding: 50px 20px;
+    text-align: center; 
+  }
+  
+/* Estilos para o footer */
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 30px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-content > div {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.contact-info,
+.opening-hours,
+.social-links {
+    margin-bottom: 20px;
+}
+
+.contact-info h3,
+.opening-hours h3,
+.social-links h3 {
+    margin-bottom: 10px;
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links ul li {
+    margin-bottom: 5px;
+}
+
+.social-links ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links ul li a:hover {
+    color: #44cc44;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+/* Estilo para cada item de produto */
+.product-item {
+    border: 1px solid #ccc; 
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center; 
+  }
+  
+  /* Estilo para a imagem dentro do item de produto */
+  .product-item img {
+    max-width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 4px; 
+  }
+  
+
+/* Tablets e dispositivos de tamanho médio */
+@media (max-width: 768px) {
+    .product-item img {
+      height: 150px;
+    }
+  }
+  
+  /* Celulares e dispositivos de tamanho pequeno */
+  @media (max-width: 480px) {
+    .product-item img {
+      height: 120px;
+    }
+  
+    .product-item {
+      padding: 15px;
+    }
+  }
+
+  
+  
